@@ -1,35 +1,42 @@
 # The following function was generated with help from Claude Sonnet 4.6
-{% extends 'base.html' %}
-{% block content %}
-<h2>Alveus Sanctuary Animals</h2>
-<table border="1">
-  <tr>
-    <th>Name</th>
-    <th>Species</th>
-    <th>Class</th>
-    <th>Sex</th>
-    <th>Birthday</th>
-    <th>Arrived</th>
-    <th>Conservation Status</th>
-    <th>Ambassador For</th>
-  </tr>
-  {% for animal in data %}
-  <tr>
-    <td>{{ animal['name'] }}</td>
-    <td>{{ animal['species'] }}</td>
-    <td>{{ animal['species_class'] }}</td>
-    <td>{{ animal['sex'] }}</td>
-    <td>{{ animal['birthday'] }}</td>
-    <td>{{ animal['arrivaldate'] }}</td>
-    <td>{{ animal['conservationstatus'] }}</td>
-    <td>
-      <ul>
-      {% for topic in animal['topics'].split('|') %}
-        <li>{{ topic }}</li>
-      {% endfor %}
-      </ul>
-    </td>
-  </tr>
-  {% endfor %}
-</table>
-{% endblock %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Alveus Sanctuary Animals</title>
+</head>
+<body>
+    <h1>Alveus Sanctuary Animals</h1>
+    <a href="/">Home</a>
+    <br><br>
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>Name</th>
+            <th>Species</th>
+            <th>Class</th>
+            <th>Sex</th>
+            <th>Birthday</th>
+            <th>Arrived</th>
+            <th>Conservation Status</th>
+            <th>Ambassador For</th>
+        </tr>
+        {% for animal in data %}
+        <tr>
+            <td>{{ animal['name'] }}</td>
+            <td>{{ animal['species'] }}</td>
+            <td>{{ animal['species_class'] }}</td>
+            <td>{{ animal['sex'] }}</td>
+            <td>{{ animal['birthday'] }}</td>
+            <td>{{ animal['arrivaldate'] }}</td>
+            <td>{{ animal['conservationstatus'] }}</td>
+            <td>
+                <ul>
+                {% for topic in animal['topics'].split('|') %}
+                    <li>{{ topic }}</li>
+                {% endfor %}
+                </ul>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
