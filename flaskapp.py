@@ -59,6 +59,7 @@ def display_users():
     users_list = (('John','Doe','Comedy'),('Jane', 'Doe','Drama'))
     return render_template('display_users.html', users = users_list)
 
+# 
 @app.route('/animals')
 def animals():
     data = get_all_animals()
