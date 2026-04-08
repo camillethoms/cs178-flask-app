@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head><title>Sighting Log</title></head>
+<body>
+    <h1>Alveus Sanctuary Sighting Log</h1>
+    <a href="/">Home</a> | <a href="/animals">Animals</a> | <a href="/add-sighting">Log a Sighting</a>
+    <br><br>
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            {% for category, message in messages %}
+                <p><strong>{{ message }}</strong></p>
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+
+    {% if sightings %}
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>Name</th>
+            <th>Animal Tag</th>
+            <th>Sighting</th>
+            <th>Timestamp</th>
+            <th>Update</th>
+            <th>Delete</th>
+        </tr>
+        {% for s in sightings %}
+        <tr>
+            <td>{{ s['display_name'] }}</td>
+            <td>{{ s['animal_tag'] }}</td>
+            <td>{{ s['sighting'] }}</td>
+            <td>{{ s['timestamp'] }}</td>
+            <td>
+                <form action="/update-sighting" method="POST">
+                    <input type="hidden" name="display_name" value="{{ s['display_name'] }}">
+                    <input type="hidden" name="timestamp" value="{{ s['timestamp'] }}">
+                    <input type="text" name="new_sighting" placeholder="New sighting text" required>
+                    <button type="submit">Update</button>
+                </form>
+            </td>
+            <td>
+                <form action="/delete-sighting" method="POST">
+                    <input type="hidden" name="display_name" value="{{ s['display_name'] }}">
+                    <input type="hidden" name="timestamp" value="{{ s['timestamp'] }}">
+                    <button type="submit">Delete</button>
+                </form>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% else %}
+        <p>No sightings yet — be the first to log one!</p>
+    {% endif %}
+
+    <br>
+    <h2>Watch Live</h2>
+    <p>See the animals live at <a href="https://alveussanctuary.org/live" target="_blank">Alveus Sanctuary Live</a></p>
+</body>
+</html> 

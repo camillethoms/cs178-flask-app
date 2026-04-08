@@ -23,7 +23,7 @@ def execute_query(query, args=()):
     cur.close()
     return rows
 
-# The following function was generated with help from Claude Sonnet 4.6
+# The following function was generated with help from Claude Sonnet 4.6 for joining and grouping the topics right
 def get_all_animals():
     """Returns all animals with their ambassador topics."""
     query = """
@@ -36,7 +36,7 @@ def get_all_animals():
     """
     return execute_query(query)
 
-# The following function was generated with help from Claude Sonnet 4.6
+# is this function even applicable now? The following function was generated with help from Claude Sonnet 4.6
 def get_animal_by_id(animal_id):
     """Returns a single animal and their topics by ID."""
     query = """
@@ -50,3 +50,9 @@ def get_animal_by_id(animal_id):
     """
     results = execute_query(query, (animal_id,))
     return results[0] if results else None
+
+def add_animal(name, species, species_class, sex, birthday, arrivaldate, conservationstatus, topics):
+    """to add a new animal and their ambassador topics"""
+    conn = get_conn()
+    cursor = conn.cursor()
+    
