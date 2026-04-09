@@ -1,11 +1,9 @@
 <!DOCTYPE html>
+<!-- author: Camille Thoms --> 
+<!-- The following function was generated with help from claude sonnet for table structure and temporary flash message-->
 <html>
 <head><title>Sighting Log</title></head>
 <body>
-    <h1>Alveus Sanctuary Sighting Log</h1>
-    <a href="/">Home</a> | <a href="/animals">Animals</a> | <a href="/add-sighting">Log a Sighting</a>
-    <br><br>
-
     {% with messages = get_flashed_messages(with_categories=true) %}
         {% if messages %}
             {% for category, message in messages %}
@@ -13,6 +11,10 @@
             {% endfor %}
         {% endif %}
     {% endwith %}
+
+    <h1>Alveus Sanctuary Sighting Log</h1>
+    <a href="/">Home</a> | <a href="/animals">Animals</a> | <a href="/add-sighting">Log a Sighting</a>
+    <br><br>
 
     {% if sightings %}
     <table border="1" cellpadding="8">
@@ -54,6 +56,7 @@
 
     <br>
     <h2>Watch Live</h2>
-    <p>See the animals live at <a href="https://alveussanctuary.org/live" target="_blank">Alveus Sanctuary Live</a></p>
+    <p>See the animals live 24/7 at <a href="https://www.twitch.tv/alveussanctuary" target="_blank">Alveus Sanctuary Live</a></p>
+    <p>Then come back and log what you see and/or learn!</p>
 </body>
 </html> 
