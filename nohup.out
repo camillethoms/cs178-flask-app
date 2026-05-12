@@ -298,3 +298,23 @@ Press CTRL+C to quit
 20.65.195.60 - - [12/May/2026 13:18:42] "GET /hudson HTTP/1.1" 404 -
 204.76.203.206 - - [12/May/2026 14:40:11] "GET / HTTP/1.1" 200 -
 204.76.203.206 - - [12/May/2026 15:50:21] "GET / HTTP/1.1" 200 -
+176.65.139.177 - - [12/May/2026 16:31:36] "GET /login HTTP/1.1" 404 -
+45.156.128.49 - - [12/May/2026 19:11:26] "GET /cgi-bin/authLogin.cgi HTTP/1.1" 404 -
+146.190.253.68 - - [12/May/2026 19:26:13] "GET / HTTP/1.1" 200 -
+146.190.253.68 - - [12/May/2026 19:26:13] "GET /favicon.ico HTTP/1.1" 404 -
+54.242.44.123 - - [12/May/2026 19:31:50] "GET / HTTP/1.1" 200 -
+96.9.226.187 - - [12/May/2026 19:40:00] code 400, message Bad request syntax ('\x16\x03\x01\x00ä\x01\x00\x00à\x03\x03Â5c')
+96.9.226.187 - - [12/May/2026 19:40:00] "\x16\x03\x01\x00ä\x01\x00\x00à\x03\x03Â5c" HTTPStatus.BAD_REQUEST -
+198.235.24.33 - - [12/May/2026 19:42:40] "GET / HTTP/1.0" 200 -
+204.76.203.206 - - [12/May/2026 20:21:39] "GET / HTTP/1.1" 200 -
+147.185.132.55 - - [12/May/2026 21:11:13] "GET / HTTP/1.0" 200 -
+204.76.203.206 - - [12/May/2026 22:16:26] "GET / HTTP/1.1" 200 -
+66.132.172.39 - - [12/May/2026 22:56:19] code 400, message Bad request version ('À\x14À')
+66.132.172.39 - - [12/May/2026 22:56:19] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x83©}´^\\µ÷ó6Y½zÍÕ\x10\x9aM\x8dÚ\x08x\\ptÜa\x1dD)\x9d¢ )\x98CÜË\x9aò\x05Ø\x0dáÄ\x00jGÙ\x8bÝ^mg]z\x1b\x17rÓ\x0d¾ª|j\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+66.132.172.39 - - [12/May/2026 22:56:20] "GET / HTTP/1.1" 200 -
+66.132.172.39 - - [12/May/2026 22:56:22] code 505, message Invalid HTTP version (2.0)
+66.132.172.39 - - [12/May/2026 22:56:22] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+66.132.172.39 - - [12/May/2026 22:56:24] "GET /favicon.ico HTTP/1.1" 404 -
+66.132.172.39 - - [12/May/2026 22:56:40] code 400, message Bad request version ('À\x14À')
+66.132.172.39 - - [12/May/2026 22:56:40] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03òä\x1e£ûèCöI\x182$\x05¦Å\x1d\x99\x92\x8cI(}\x06jiHKÇú\x91\x10\x81 \x9aF\x15`i6ù\x8eÛv¨ûË;7\x8c^°u{\x0dÁ\x04)5å§\x04'\\¨j\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+66.132.172.39 - - [12/May/2026 22:56:41] "GET /.well-known/security.txt HTTP/1.1" 404 -
