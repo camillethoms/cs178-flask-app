@@ -1,0 +1,300 @@
+nohup: ignoring input
+/home/ec2-user/.local/lib/python3.9/site-packages/boto3/compat.py:89: PythonDeprecationWarning: Boto3 will no longer support Python 3.9 starting April 29, 2026. To continue receiving service updates, bug fixes, and security updates please upgrade to Python 3.10 or later. More information can be found here: https://aws.amazon.com/blogs/developer/python-support-policy-updates-for-aws-sdks-and-tools/
+  warnings.warn(warning, PythonDeprecationWarning)
+ * Serving Flask app 'flaskapp'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.31.44.91:8080
+Press CTRL+C to quit
+ * Restarting with stat
+/home/ec2-user/.local/lib/python3.9/site-packages/boto3/compat.py:89: PythonDeprecationWarning: Boto3 will no longer support Python 3.9 starting April 29, 2026. To continue receiving service updates, bug fixes, and security updates please upgrade to Python 3.10 or later. More information can be found here: https://aws.amazon.com/blogs/developer/python-support-policy-updates-for-aws-sdks-and-tools/
+  warnings.warn(warning, PythonDeprecationWarning)
+ * Debugger is active!
+ * Debugger PIN: 650-893-290
+75.162.233.54 - - [11/May/2026 08:36:12] "GET /sightings HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 08:39:18] "GET /sightings HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 08:39:20] "GET / HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 08:39:26] "GET /animals HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 08:39:31] "GET / HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 08:39:32] "GET /sightings HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 08:39:41] "GET / HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 08:41:27] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 08:42:00] "GET / HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 08:44:46] "GET / HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 08:44:47] "GET /animals HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 08:44:49] "GET /animals HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 08:44:51] "GET /sightings HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 08:48:56] "GET /sightings HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 08:51:14] "GET / HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 08:51:17] "GET /add-sighting HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 08:53:49] "GET /sightings HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 08:53:51] "GET /add-sighting HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 08:54:05] "POST /add-sighting HTTP/1.1" 302 -
+75.162.233.54 - - [11/May/2026 08:54:05] "GET /sightings HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 08:54:31] "POST /update-sighting HTTP/1.1" 302 -
+75.162.233.54 - - [11/May/2026 08:54:31] "GET /sightings HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 08:54:40] "POST /update-sighting HTTP/1.1" 302 -
+75.162.233.54 - - [11/May/2026 08:54:40] "GET /sightings HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 08:56:03] "GET /sightings HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 08:56:05] "GET / HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 08:58:14] "GET /animals HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 08:58:16] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 08:59:44] "GET / HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 09:00:19] "GET /animals HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 09:00:19] "GET /favicon.ico HTTP/1.1" 404 -
+75.162.233.54 - - [11/May/2026 09:00:36] "GET /sightings HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 09:00:46] "GET /add-sighting HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 09:01:05] "POST /add-sighting HTTP/1.1" 302 -
+75.162.233.54 - - [11/May/2026 09:01:05] "GET /sightings HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 09:01:10] "GET /trending HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 09:01:29] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 09:07:33] "GET / HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 09:08:16] "GET /sightings HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 09:08:16] "GET /favicon.ico HTTP/1.1" 404 -
+75.162.233.54 - - [11/May/2026 09:08:18] "GET /add-sighting HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 09:08:19] "GET /animals HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 09:08:21] "GET /sightings HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 09:08:21] "GET /trending HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 09:08:22] "GET /animals HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 09:08:23] "GET / HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 09:08:24] "GET /sightings HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 09:08:28] "GET /add-sighting HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 09:08:57] "GET / HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 09:08:58] "GET /sightings HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 09:08:59] "GET /add-sighting HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 09:09:02] "GET / HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 09:10:14] "GET / HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 09:10:14] "GET /favicon.ico HTTP/1.1" 404 -
+75.162.233.54 - - [11/May/2026 09:10:29] "GET /animals HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 09:10:35] "GET /sightings HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 09:10:43] "GET /add-sighting HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 09:11:11] "POST /add-sighting HTTP/1.1" 302 -
+75.162.233.54 - - [11/May/2026 09:11:11] "GET /sightings HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 09:11:27] "POST /update-sighting HTTP/1.1" 302 -
+75.162.233.54 - - [11/May/2026 09:11:27] "GET /sightings HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 09:11:35] "GET /trending HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 09:11:51] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 09:14:02] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 09:23:34] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 09:33:18] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 09:42:52] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 09:49:15] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 09:56:49] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 10:06:42] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 10:12:25] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 10:22:42] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 10:29:35] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 10:36:29] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 10:45:28] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 10:55:03] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 11:10:53] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 11:19:00] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 11:27:38] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 11:36:22] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 11:41:59] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 11:49:50] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 11:59:48] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 12:06:53] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 12:16:26] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 12:22:42] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 12:34:23] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 12:42:51] "GET / HTTP/1.1" 200 -
+119.200.13.201 - - [11/May/2026 12:43:19] "POST /goform/set_LimitClient_cfg HTTP/1.1" 404 -
+204.76.203.206 - - [11/May/2026 12:51:01] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 12:54:17] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 13:04:47] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 13:13:15] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 13:20:40] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 13:29:53] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 13:37:11] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 13:43:40] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 13:53:43] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 14:00:01] "GET / HTTP/1.1" 200 -
+138.68.153.47 - - [11/May/2026 14:12:46] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 14:22:11] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 14:29:20] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 14:39:57] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 14:46:09] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 14:54:18] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 15:02:16] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 15:10:10] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 15:18:14] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 15:24:49] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 15:33:13] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 15:42:31] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 15:49:28] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 15:56:54] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 16:05:22] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 16:13:22] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 16:20:20] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 16:28:25] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 16:35:35] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 16:43:59] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 16:52:37] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 17:00:01] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 17:08:25] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 17:16:26] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 17:23:13] "GET / HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 17:26:33] "GET /animals HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 17:26:33] "GET /favicon.ico HTTP/1.1" 404 -
+204.76.203.206 - - [11/May/2026 17:33:56] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 17:40:14] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 17:50:20] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 18:00:23] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 18:10:45] "GET / HTTP/1.1" 200 -
+206.81.29.46 - - [11/May/2026 18:25:16] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 18:25:27] "GET / HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 18:34:18] "GET / HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 18:34:18] "GET /favicon.ico HTTP/1.1" 404 -
+75.162.233.54 - - [11/May/2026 18:34:50] "GET /sightings HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 18:34:51] "GET /add-sighting HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 18:35:14] "POST /add-sighting HTTP/1.1" 302 -
+75.162.233.54 - - [11/May/2026 18:35:14] "GET /sightings HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 18:35:48] "GET /add-sighting HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 18:35:48] "GET /favicon.ico HTTP/1.1" 404 -
+75.162.233.54 - - [11/May/2026 18:36:01] "POST /add-sighting HTTP/1.1" 302 -
+75.162.233.54 - - [11/May/2026 18:36:01] "GET /sightings HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 18:36:45] "GET / HTTP/1.1" 200 -
+108.165.95.12 - - [11/May/2026 18:43:36] "GET /login HTTP/1.1" 404 -
+204.76.203.206 - - [11/May/2026 18:44:15] "GET / HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 18:45:07] "GET / HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 18:45:07] "GET /favicon.ico HTTP/1.1" 404 -
+75.162.233.54 - - [11/May/2026 18:48:10] "GET /sightings HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 18:48:11] "GET /add-sighting HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 18:48:20] "POST /add-sighting HTTP/1.1" 302 -
+75.162.233.54 - - [11/May/2026 18:48:20] "GET /sightings HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 18:49:34] "GET / HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 18:50:53] "GET /animals HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 18:55:18] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 18:59:30] "GET / HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 19:03:21] "GET /animals HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 19:03:46] "GET /animals HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 19:09:48] "GET / HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 19:10:02] "GET /sightings HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 19:10:03] "GET /add-sighting HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 19:10:11] "GET /sightings HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 19:10:13] "GET /add-sighting HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 19:10:28] "POST /add-sighting HTTP/1.1" 302 -
+75.162.233.54 - - [11/May/2026 19:10:28] "GET /sightings HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 19:10:42] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 19:11:07] "GET / HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 19:11:34] "GET /animals HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 19:12:04] "GET / HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 19:12:33] "GET /animals HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 19:13:20] "GET /sightings HTTP/1.1" 200 -
+85.217.149.42 - - [11/May/2026 19:13:44] "GET / HTTP/1.1" 200 -
+15.235.119.57 - - [11/May/2026 19:13:44] "GET /favicon.ico HTTP/1.1" 404 -
+75.162.233.54 - - [11/May/2026 19:13:44] "GET / HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 19:14:17] "GET /animals HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 19:15:24] "GET /sightings HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 19:15:31] "GET /add-sighting HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 19:15:59] "POST /add-sighting HTTP/1.1" 302 -
+75.162.233.54 - - [11/May/2026 19:15:59] "GET /sightings HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 19:20:11] "GET /add-sighting HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 19:20:24] "POST /add-sighting HTTP/1.1" 302 -
+75.162.233.54 - - [11/May/2026 19:20:24] "GET /sightings HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 19:20:26] "GET / HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 19:20:33] "GET /add-sighting HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 19:20:35] "GET /sightings HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 19:20:53] "GET / HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 19:24:18] "GET /animals HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 19:25:18] "GET /sightings HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 19:25:42] "GET / HTTP/1.1" 200 -
+137.184.234.228 - - [11/May/2026 19:26:06] "GET /config.json HTTP/1.1" 404 -
+137.184.234.228 - - [11/May/2026 19:26:06] "GET /docker-compose.yml HTTP/1.1" 404 -
+137.184.234.228 - - [11/May/2026 19:26:06] "GET /.bash_history HTTP/1.1" 404 -
+137.184.234.228 - - [11/May/2026 19:26:06] "GET /.env.bak HTTP/1.1" 404 -
+137.184.234.228 - - [11/May/2026 19:26:06] "GET /config.js HTTP/1.1" 404 -
+137.184.234.228 - - [11/May/2026 19:26:06] "GET /.env HTTP/1.1" 404 -
+75.162.233.54 - - [11/May/2026 19:26:38] "GET /animals HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 19:26:53] "GET /sightings HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 19:27:02] "GET /add-sighting HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 19:27:17] "POST /add-sighting HTTP/1.1" 302 -
+75.162.233.54 - - [11/May/2026 19:27:17] "GET /sightings HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 19:27:32] "GET /trending HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 19:28:28] "GET / HTTP/1.1" 200 -
+75.162.233.54 - - [11/May/2026 19:28:36] "GET /trending HTTP/1.1" 200 -
+3.94.201.110 - - [11/May/2026 19:29:29] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 19:30:16] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [11/May/2026 19:56:55] "GET / HTTP/1.1" 200 -
+138.68.182.214 - - [11/May/2026 19:58:39] code 400, message Bad request syntax ('\x01\x01æ')
+138.68.182.214 - - [11/May/2026 19:58:39] "\x01\x01æ" HTTPStatus.BAD_REQUEST -
+91.92.241.188 - - [11/May/2026 20:12:11] code 400, message Bad request version ('À\x13À')
+91.92.241.188 - - [11/May/2026 20:12:11] "\x16\x03\x01\x00ê\x01\x00\x00æ\x03\x03 ÇerEÄ\x1c66dýâè'êEØ\x1a\x1frG"\x1dÃf%\x0d`8(¹x ¡ædçÔC|¸\x06Æß^G\x1alÊA0à\x83ëo\x0e\x0bí*ôôJßHÆ\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+91.92.241.188 - - [11/May/2026 20:12:11] "GET /wp-json/gravitysmtp/v1/tests/mock-data?page=gravitysmtp-settings HTTP/1.1" 404 -
+91.92.241.188 - - [11/May/2026 20:22:48] code 400, message Bad request version ('À\x13À')
+91.92.241.188 - - [11/May/2026 20:22:48] "\x16\x03\x01\x00ê\x01\x00\x00æ\x03\x03\\$¥tßt¯Ýô\x0c(\x92\x1aE7\x1eR\x8e^ßPE=8\x7fÏ¥N\x81-@ÿ .]ÜxªÞ;þ ­\x0f¥\x95¥]¼\x99\x03bÌ\x97Rtf²°\x8c°fräã\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+91.92.241.188 - - [11/May/2026 20:22:48] "GET /wp-json/gravitysmtp/v1/tests/mock-data?page=gravitysmtp-settings HTTP/1.1" 404 -
+204.76.203.206 - - [11/May/2026 21:44:27] "GET / HTTP/1.1" 200 -
+66.132.186.181 - - [11/May/2026 21:52:57] code 400, message Bad request version ('À\x14À')
+66.132.186.181 - - [11/May/2026 21:52:57] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03*§á+]ás7ê~Ù\x04k\x92÷%]¶Ìí6Æ\x94ý\x99>³!w ú² r(¼R¤Ê1É\x91\x950<õHUy69\x98\x1f=ðøõ2ãèj\x00¯\x8a\x96\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+66.132.186.181 - - [11/May/2026 21:52:58] "GET / HTTP/1.1" 200 -
+66.132.186.181 - - [11/May/2026 21:52:58] code 505, message Invalid HTTP version (2.0)
+66.132.186.181 - - [11/May/2026 21:52:58] "PRI * HTTP/2.0" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+66.132.186.181 - - [11/May/2026 21:52:58] "GET /favicon.ico HTTP/1.1" 404 -
+66.132.186.181 - - [11/May/2026 21:53:48] code 400, message Bad request version ('À\x14À')
+66.132.186.181 - - [11/May/2026 21:53:48] "\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03]\x89pD(\x07æ-*Ë×\x9dQ\x1e+\x12Y !;zá\x06'5\x8a\x9c\x0c«i\x90\x0f 5\x9b\x9bõG\x92P\x17Ûäø\x91\x9f÷\x1dþ\x815Î6KUQ®{\x18FX\x12Ñgß\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+66.132.186.181 - - [11/May/2026 21:53:53] "GET /login HTTP/1.1" 404 -
+206.189.205.34 - - [11/May/2026 22:15:30] "GET / HTTP/1.1" 200 -
+147.185.132.255 - - [11/May/2026 23:02:18] "GET / HTTP/1.0" 200 -
+204.76.203.206 - - [11/May/2026 23:04:37] "GET / HTTP/1.1" 200 -
+65.49.1.222 - - [12/May/2026 00:33:14] "GET / HTTP/1.1" 200 -
+65.49.1.230 - - [12/May/2026 00:34:49] "GET /favicon.ico HTTP/1.1" 404 -
+65.49.1.225 - - [12/May/2026 00:37:24] "GET http://api.ipify.org/?format=json HTTP/1.1" 200 -
+65.49.1.229 - - [12/May/2026 00:37:52] "CONNECT www.shadowserver.org:443 HTTP/1.1" 404 -
+204.76.203.206 - - [12/May/2026 00:54:48] "GET / HTTP/1.1" 200 -
+47.250.52.227 - - [12/May/2026 01:25:54] "GET / HTTP/1.1" 200 -
+47.250.52.227 - - [12/May/2026 01:25:55] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [12/May/2026 02:35:46] "GET / HTTP/1.1" 200 -
+3.129.187.38 - - [12/May/2026 04:31:43] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03ÿ(9\x8c¬Yµ÷-\x90Ü\x8aÿæ.^e:?éP£Q2\x8f.C0£ò`ä\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+3.129.187.38 - - [12/May/2026 04:31:43] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03ÿ(9\x8c¬Yµ÷-\x90Ü\x8aÿæ.^e:?éP£Q2\x8f.C0£ò`ä\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+3.129.187.38 - - [12/May/2026 04:31:47] code 400, message Bad request version ('À\x14À')
+3.129.187.38 - - [12/May/2026 04:31:47] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x0d\x99aKý@!9\x16&$4U\x03u\x9c\x93åv×RpPì\x08w`¼o»\x96\x97\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+18.218.118.203 - - [12/May/2026 05:07:43] "GET / HTTP/1.1" 200 -
+18.218.118.203 - - [12/May/2026 05:11:31] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03¬ú¬T^=ø\x952z\x94Whÿ\x89¸\x00D&+\x08Á]oÑ\x11\x0fñÑLq×\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+18.218.118.203 - - [12/May/2026 05:11:31] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03¬ú¬T^=ø\x952z\x94Whÿ\x89¸\x00D&+\x08Á]oÑ\x11\x0fñÑLq×\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+18.218.118.203 - - [12/May/2026 05:12:53] code 400, message Bad request version ('À\x14À')
+18.218.118.203 - - [12/May/2026 05:12:53] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03`\x1c§x\x057k\x9b1¨¹õ¥\x0d\x1aÁ#\x14/º°³ä@àYf\x10\x92\x01\x87\x85\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+5.187.35.26 - - [12/May/2026 05:15:49] "GET /..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd HTTP/1.1" 404 -
+204.76.203.206 - - [12/May/2026 05:28:16] "GET / HTTP/1.1" 200 -
+172.105.14.244 - - [12/May/2026 06:26:54] "GET /config.py HTTP/1.1" 404 -
+172.105.14.244 - - [12/May/2026 06:26:55] "GET /.env HTTP/1.1" 404 -
+172.105.14.244 - - [12/May/2026 06:26:55] "GET /.env.bak HTTP/1.1" 404 -
+172.105.14.244 - - [12/May/2026 06:26:55] "GET /config.js HTTP/1.1" 404 -
+172.105.14.244 - - [12/May/2026 06:26:55] "GET /.bash_history HTTP/1.1" 404 -
+172.105.14.244 - - [12/May/2026 06:26:55] "GET /.env.local HTTP/1.1" 404 -
+172.105.14.244 - - [12/May/2026 06:26:55] "GET /config.json HTTP/1.1" 404 -
+204.76.203.206 - - [12/May/2026 07:07:05] "GET / HTTP/1.1" 200 -
+135.237.124.6 - - [12/May/2026 08:10:07] code 400, message Bad request syntax ('MGLNDD_100.24.10.27_8080')
+135.237.124.6 - - [12/May/2026 08:10:07] "MGLNDD_100.24.10.27_8080" HTTPStatus.BAD_REQUEST -
+204.76.203.206 - - [12/May/2026 08:34:02] "GET / HTTP/1.1" 200 -
+135.237.127.177 - - [12/May/2026 09:17:04] code 400, message Bad request syntax ('MGLNDD_100.24.10.27_8080')
+135.237.127.177 - - [12/May/2026 09:17:04] "MGLNDD_100.24.10.27_8080" HTTPStatus.BAD_REQUEST -
+185.91.127.85 - - [12/May/2026 09:42:35] "CONNECT www.google.com:443 HTTP/1.1" 404 -
+185.91.127.85 - - [12/May/2026 09:42:35] "CONNECT www.google.com:443 HTTP/1.1" 404 -
+185.91.127.85 - - [12/May/2026 09:42:35] "CONNECT www.google.com:443 HTTP/1.1" 404 -
+185.91.127.85 - - [12/May/2026 09:42:35] "CONNECT www.google.com:443 HTTP/1.1" 404 -
+185.91.127.85 - - [12/May/2026 09:42:35] "CONNECT www.google.com:443 HTTP/1.1" 404 -
+185.91.127.85 - - [12/May/2026 09:42:35] "CONNECT www.google.com:443 HTTP/1.1" 404 -
+185.91.127.85 - - [12/May/2026 09:42:40] code 400, message Bad request syntax ('\x05\x02\x00\x02')
+185.91.127.85 - - [12/May/2026 09:42:40] code 400, message Bad request syntax ('\x04\x01\x01»\x8eû\x98w\x00')
+185.91.127.85 - - [12/May/2026 09:42:40] "\x05\x02\x00\x02" HTTPStatus.BAD_REQUEST -
+185.91.127.85 - - [12/May/2026 09:42:40] "\x04\x01\x01»\x8eû\x98w\x00" HTTPStatus.BAD_REQUEST -
+185.91.127.85 - - [12/May/2026 09:42:40] code 400, message Bad request syntax ('\x05\x02\x00\x02')
+185.91.127.85 - - [12/May/2026 09:42:40] "\x05\x02\x00\x02" HTTPStatus.BAD_REQUEST -
+185.91.127.85 - - [12/May/2026 09:42:40] code 400, message Bad request syntax ('\x05\x02\x00\x02')
+185.91.127.85 - - [12/May/2026 09:42:40] code 400, message Bad request syntax ('\x05\x02\x00\x02')
+185.91.127.85 - - [12/May/2026 09:42:40] "\x05\x02\x00\x02" HTTPStatus.BAD_REQUEST -
+185.91.127.85 - - [12/May/2026 09:42:40] "\x05\x02\x00\x02" HTTPStatus.BAD_REQUEST -
+185.91.127.85 - - [12/May/2026 09:42:40] code 400, message Bad request syntax ('\x05\x01\x00')
+185.91.127.85 - - [12/May/2026 09:42:40] "\x05\x01\x00" HTTPStatus.BAD_REQUEST -
+185.91.127.85 - - [12/May/2026 09:42:40] code 400, message Bad request syntax ('\x05\x02\x00\x02')
+185.91.127.85 - - [12/May/2026 09:42:40] "\x05\x02\x00\x02" HTTPStatus.BAD_REQUEST -
+87.236.176.55 - - [12/May/2026 11:13:02] "GET / HTTP/1.1" 200 -
+47.250.81.241 - - [12/May/2026 11:46:57] "GET / HTTP/1.1" 200 -
+47.250.81.241 - - [12/May/2026 11:46:58] "GET / HTTP/1.1" 200 -
+20.65.195.60 - - [12/May/2026 13:18:42] "GET /hudson HTTP/1.1" 404 -
+204.76.203.206 - - [12/May/2026 14:40:11] "GET / HTTP/1.1" 200 -
+204.76.203.206 - - [12/May/2026 15:50:21] "GET / HTTP/1.1" 200 -
